@@ -411,4 +411,8 @@ public class RythmConfigurer extends RythmEngineFactory implements
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
 
     }
+	@Override
+	public void configurePathMatch(PathMatchConfigurer configurer) {
+		
+	}
 }
